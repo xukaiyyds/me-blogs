@@ -96,33 +96,33 @@ export function Headline() {
         }}
       >
         <SocialLink
+          href="https://space.bilibili.com/2039366031"
+          aria-label="我的 Bilibili"
+          platform="bilibili"
+          />
+        <SocialLink
+          href="https://www.youtube.com/@xukaiyyds"
+          aria-label="我的 YouTube"
+          platform="youtube"
+          />
+        <SocialLink
+          href="https://github.com/xukaiyyds"
+          aria-label="我的 GitHub"
+          platform="github"
+          />
+        {/* <SocialLink
           href="https://cali.so/twitter"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
-          href="https://cali.so/github"
-          aria-label="我的 GitHub"
-          platform="github"
-        />
-        <SocialLink
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:15512811929@163.com"
           aria-label="我的邮箱"
           platform="mail"
         />

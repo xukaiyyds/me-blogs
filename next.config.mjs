@@ -50,12 +50,12 @@ const nextConfig = {
       },
       {
         "source": "/github",
-        "destination": "https://github.com/xukaiyyds",
+        "destination": "https://github.com/CaliCastle",
         "permanent": true
       },
       {
         "source": "/bilibili",
-        "destination": "https://space.bilibili.com/2039366031",
+        "destination": "https://space.bilibili.com/8350251",
         "permanent": true
       }
     ]
