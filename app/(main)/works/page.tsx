@@ -3,21 +3,16 @@ import Balancer from 'react-wrap-balancer'
 import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
+import Image from 'next/image'
+import TiktokQR from './tiktok-qr.png'
+import BilibiliQR from './bilibili-qr.png'
+
 const title = '我的作品'
 const description = '只用剪映粗剪了一些短视频，目前水平一般……'
 
 export const metadata = {
   title,
   description,
-  openGraph: {
-    title,
-    description,
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-  },
 }
 
 export default function WorksPage() {
@@ -44,6 +39,14 @@ export default function WorksPage() {
           </li>
         </ul>
 
+        <p>查看更多作品请扫描我的抖音二维码：</p>
+        <p className="flex justify-center md:block md:justify-start">
+          <span className="inline-flex flex-col items-center">
+            <Image src={TiktokQR} alt="" className="w-44 dark:brightness-90" />
+            <span className="mt-1 text-sm font-medium">抖音号: <code>594kxg</code></span>
+          </span>
+        </p>
+
         <h2>B站长视频</h2>
         <p>以下是我B站的相关作品：</p>
         <ul>
@@ -51,6 +54,14 @@ export default function WorksPage() {
             <strong>敬请期待</strong>
           </li>
         </ul>
+
+        <p>查看更多作品请扫描我的哔哩哔哩二维码：</p>
+        <p className="flex justify-center md:block md:justify-start">
+          <span className="inline-flex flex-col items-center">
+            <Image src={BilibiliQR} alt="" className="w-44 dark:brightness-90" />
+            <span className="mt-1 text-sm font-medium">UID: <code>2039366031</code></span>
+          </span>
+        </p>
       </article>
     </Container>
   )
