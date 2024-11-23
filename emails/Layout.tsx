@@ -47,10 +47,10 @@ export default function Layout({
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>Xu Kai</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
                 <Link
