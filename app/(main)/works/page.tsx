@@ -13,6 +13,10 @@ const description = '只用剪映粗剪了一些短视频，目前水平一般�
 export const metadata = {
   title,
   description,
+  openGraph: {
+    title,
+    description,
+  },
 }
 
 export default function WorksPage() {
