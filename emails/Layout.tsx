@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://me.xukaiyyds.cn"
+                  href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
                   <strong>Xu Kai</strong>
