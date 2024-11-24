@@ -111,12 +111,12 @@ export function Headline() {
           platform="github"
           />
         {/* <SocialLink
-          href="https://cali.so/twitter"
+          href="https://me.xukaiyyds.cn/twitter"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/tg"
+          href="https://me.xukaiyyds.cn/tg"
           aria-label="我的 Telegram"
           platform="telegram"
         /> */}

@@ -39,12 +39,12 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="Xu Kai"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://me.xukaiyyds.cn"
                   className="text-zinc-700 underline"
                 >
                   <strong>Xu Kai</strong>
@@ -53,32 +53,32 @@ export default function Layout({
                 开发者、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
-                <Link
-                  href="https://cali.so/twitter"
+                {/* <Link
+                  href="https://me.xukaiyyds.cn/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
+                |&nbsp; */}
+                <Link
+                  href="https://space.bilibili.com/2039366031"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  Bilibili
+                </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://www.youtube.com/@xukaiyyds"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://github.com/xukaiyyds"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://cali.so/bilibili"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  哔哩哔哩
                 </Link>
               </Text>
             </Section>
