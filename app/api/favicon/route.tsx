@@ -12,8 +12,7 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '((?:xukaiyyds.cn)|(?:me.xukaiyyds.cn)|(?:me-blogs.netlify.app))':
-    'https://me.xukaiyyds.cn/favicons/zolplay.png',
+  '((?:me.xukaiyyds.cn))': 'https://me.xukaiyyds.cn/favicons/zolplay.png',
   '(?:github.com)': 'https://me.xukaiyyds.cn/favicons/github.png',
   '((?:t.co)|(?:twitter.com)|(?:x.com))':
     'https://me.xukaiyyds.cn/favicons/twitter.png',
