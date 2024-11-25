@@ -5,7 +5,7 @@ import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
 import TiktokQR from './tiktok-qr.png'
-import QRTwo from './bilibili-qr.png'
+import QRTwo from './test-qr.png'
 
 const title = '我的作品'
 const description = '只用剪映粗剪了一些短视频，目前水平一般……'
