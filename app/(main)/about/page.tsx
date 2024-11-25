@@ -33,14 +33,14 @@ export default function AboutPage() {
       </header>
 
       <article className="prose dark:prose-invert">
-        <p>想了解更多？请前往我的
+        <p>想了解更多？请前往
           <RichLink
             href="https://xukaiyyds.cn"
             favicon={false}
             target="_blank"
           >
-            个人主页
-          </RichLink>
+            我的个人主页
+          </RichLink>。
         </p>
       </article>
     </Container>

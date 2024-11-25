@@ -80,7 +80,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Xu Kai，我热爱前端开发和视频剪辑，这是我的 <PeekabooLink href="https://me.xukaiyyds.cn/projects">开发项目</PeekabooLink> 和 <PeekabooLink href="https://me.xukaiyyds.cn/ama">剪辑作品</PeekabooLink> 。
+          我是 Xu Kai，我热爱前端开发和视频剪辑，
+          这是我的 <PeekabooLink href="https://me.xukaiyyds.cn/projects">开发项目</PeekabooLink> 和 <PeekabooLink href="https://me.xukaiyyds.cn/works">剪辑作品</PeekabooLink>。
         </Balancer>
       </motion.p>
       <motion.div
