@@ -1,10 +1,10 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 import Balancer from 'react-wrap-balancer'
 
 import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
-// import TiktokQR from './tiktok-qr.png'
+import TiktokQR from './tiktok-qr.png'
 // import BilibiliQR from './bilibili-qr.png'
 
 const title = '我的作品'
@@ -47,13 +47,13 @@ export default function WorksPage() {
             </RichLink>
           </li>
         </ul>
-        {/* <p>更多作品请在抖音搜索<code>594kxg</code>，或者直接扫描下面的二维码：</p>
+        <p>更多作品请在抖音搜索<code>594kxg</code>，或者直接扫描下面的二维码：</p>
         <p className="flex justify-center md:block md:justify-start">
           <span className="inline-flex flex-col items-center">
             <Image src={TiktokQR} alt="" className="w-44 dark:brightness-90" />
             <span className="mt-1 text-sm font-medium">抖音码</span>
           </span>
-        </p> */}
+        </p>
 
         <h2>B站长视频</h2>
         <p>以下是我哔哩哔哩的相关作品：</p>
