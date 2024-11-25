@@ -53,18 +53,11 @@ export default function Layout({
                 开发者、剪辑师、细节控、理想主义者
               </Text>
               <Text className="text-center">
-                {/* <Link
-                  href="https://me.xukaiyyds.cn/twitter"
+                <Link
+                  href="https://x.com/xukaiyyds"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
-                </Link>{' '}
-                |&nbsp; */}
-                <Link
-                  href="https://space.bilibili.com/2039366031"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  Bilibili
                 </Link>{' '}
                 |&nbsp;
                 <Link
@@ -72,6 +65,13 @@ export default function Layout({
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
+                </Link>{' '}
+                |&nbsp;
+                <Link
+                  href="https://space.bilibili.com/2039366031"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  Bilibili
                 </Link>{' '}
                 |&nbsp;
                 <Link
