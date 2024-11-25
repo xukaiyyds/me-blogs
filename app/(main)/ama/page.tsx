@@ -5,7 +5,7 @@ import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
 import TiktokQR from './tiktok-qr.png'
-import BilibiliQR from './bilibili-qr.png'
+// import BilibiliQR from './bilibili-qr.png'
 
 const title = '我的作品'
 const description = '只用剪映粗剪了一些短视频，目前水平一般……'
@@ -68,13 +68,13 @@ export default function WorksPage() {
             <strong>敬请期待</strong>
           </li>
         </ul>
-        <p>更多作品请查看我的哔哩哔哩</p>
+        <p>更多作品请查看我的B站主页。</p>
         {/* <p className="flex justify-center md:block md:justify-start">
           <span className="inline-flex flex-col items-center">
             <span className="mt-1 text-sm font-medium">哔哩哔哩码</span>
           </span>
         </p> */}
-            <Image src={BilibiliQR} alt="" className="w-44 dark:brightness-90" />
+            {/* <Image src={BilibiliQR} alt="" className="w-44 dark:brightness-90" /> */}
       </article>
     </Container>
   )
