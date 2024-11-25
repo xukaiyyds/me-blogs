@@ -46,6 +46,12 @@ export default function WorksPage() {
               iD8Pwr9U
             </RichLink>
           </li>
+          <li>
+            <b>享受就寿</b>：
+            <RichLink href="https://v.douyin.com/iD8Pwr9U/" target="_blank">
+              iD8Pwr9U
+            </RichLink>
+          </li>
         </ul>
         <p>更多作品请在抖音搜索<code>594kxg</code>，或者直接扫描下面的二维码：</p>
         <p className="flex justify-center md:block md:justify-start">
