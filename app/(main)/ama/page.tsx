@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Images from 'next/image'
 import Balancer from 'react-wrap-balancer'
 
 import { RichLink } from '~/components/links/RichLink'
@@ -63,13 +62,13 @@ export default function WorksPage() {
             <strong>敬请期待</strong>
           </li>
         </ul>
-        <p>更多作品请在B站搜索<code>UID2039366031</code>，或者直接扫描下面的二维码：</p>
-        <p className="flex justify-center md:block md:justify-start">
+        <p>更多作品请查看我的哔哩哔哩</p>
+        {/* <p className="flex justify-center md:block md:justify-start">
           <span className="inline-flex flex-col items-center">
-            <Images src={BilibiliQR} alt="" className="w-44 dark:brightness-90" />
             <span className="mt-1 text-sm font-medium">哔哩哔哩码</span>
           </span>
-        </p>
+        </p> */}
+            <Image src={BilibiliQR} alt="" className="w-44 dark:brightness-90" />
       </article>
     </Container>
   )
