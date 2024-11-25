@@ -4,7 +4,7 @@ import Balancer from 'react-wrap-balancer'
 import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
-import AlipayQR from './alipay-qr.png'
+import TiktokQR from './tiktok-qr.png'
 
 const title = '我的作品'
 const description = '只用剪映粗剪了一些短视频，目前水平一般……'
@@ -46,11 +46,11 @@ export default function WorksPage() {
             </RichLink>
           </li>
         </ul>
-        <p>更多作品请在抖音搜索：<code>594kxg</code></p>
+        <p>更多作品请在抖音搜索<code>594kxg</code>，或者直接扫描下面的抖音二维码：</p>
         <p className="flex justify-center md:block md:justify-start">
           <span className="inline-flex flex-col items-center">
-            <Image src={AlipayQR} alt="" className="w-44 dark:brightness-90" />
-            <span className="mt-1 text-sm font-medium">支付宝二维码</span>
+            <Image src={TiktokQR} alt="" className="w-44 dark:brightness-90" />
+            <span className="mt-1 text-sm font-medium">抖音码</span>
           </span>
         </p>
 
