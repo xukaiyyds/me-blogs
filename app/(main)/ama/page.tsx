@@ -4,7 +4,7 @@ import Balancer from 'react-wrap-balancer'
 import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 
-import AlipayQR from './alipay-qr.jpg'
+import AlipayQR from './alipay-qr.png'
 import ThankYouLetterScreenshot1 from './Arc aagD26w9@2x.png'
 import ThankYouLetterScreenshot2 from './Arc ynleUdHy@2x.png'
 
