@@ -7,7 +7,7 @@ import { Container } from '~/components/ui/Container'
 import TiktokQR from './tiktok-qr.png'
 
 const title = '我的作品'
-const description = '只用剪映粗剪了一些短视频，目前水平一般……'
+const description = '目前只用剪映粗剪了一些短视频，水平一般，还有很大的成长空间……'
 
 export const metadata = {
   title,
@@ -40,6 +40,24 @@ export default function WorksPage() {
         <p>以下是我抖音的相关作品：</p>
         <ul>
           <li>
+            <b>名人名言</b>：
+            <RichLink href="https://v.douyin.com/iDChHeaw/" target="_blank">
+              iDChHeaw
+            </RichLink>
+          </li>
+          <li>
+            <b>励志短句</b>：
+            <RichLink href="https://v.douyin.com/iD4WHRYT/" target="_blank">
+              iD4WHRYT
+            </RichLink>
+          </li>
+          <li>
+            <b>习惯逃避</b>：
+            <RichLink href="https://v.douyin.com/iDcV1w1A/" target="_blank">
+              iDcV1w1A
+            </RichLink>
+          </li>
+          <li>
             <b>享受就寿</b>：
             <RichLink href="https://v.douyin.com/iD8Pwr9U/" target="_blank">
               iD8Pwr9U
@@ -54,7 +72,7 @@ export default function WorksPage() {
           </span>
         </p>
 
-        <h2>B站长视频</h2>
+        {/* <h2>B站长视频</h2>
         <p>以下是我哔哩哔哩的相关作品：</p>
         <ul>
           <li>
@@ -69,7 +87,7 @@ export default function WorksPage() {
           >
             我的B站主页
           </RichLink>。
-        </p>
+        </p> */}
       </article>
     </Container>
   )
