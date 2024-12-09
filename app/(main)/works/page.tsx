@@ -40,6 +40,12 @@ export default function WorksPage() {
         <p>以下是我抖音的相关作品：</p>
         <ul>
           <li>
+            <b>享受就寿</b>：
+            <RichLink href="https://v.douyin.com/iD8Pwr9U/" target="_blank">
+              iD8Pwr9U
+            </RichLink>
+          </li>
+          <li>
             <b>名人名言</b>：
             <RichLink href="https://v.douyin.com/iDChHeaw/" target="_blank">
               iDChHeaw
@@ -58,9 +64,9 @@ export default function WorksPage() {
             </RichLink>
           </li>
           <li>
-            <b>享受就寿</b>：
-            <RichLink href="https://v.douyin.com/iD8Pwr9U/" target="_blank">
-              iD8Pwr9U
+            <b>杀死一只知更鸟</b>：
+            <RichLink href="https://v.douyin.com/iDoDL6nb/" target="_blank">
+              iDoDL6nb
             </RichLink>
           </li>
         </ul>
@@ -71,23 +77,6 @@ export default function WorksPage() {
             <span className="mt-1 text-sm font-medium">抖音码</span>
           </span>
         </p>
-
-        {/* <h2>B站长视频</h2>
-        <p>以下是我哔哩哔哩的相关作品：</p>
-        <ul>
-          <li>
-            <strong>敬请期待</strong>
-          </li>
-        </ul>
-        <p>更多作品请查看
-          <RichLink
-            href="https://space.bilibili.com/2039366031"
-            favicon={false}
-            target="_blank"
-          >
-            我的B站主页
-          </RichLink>。
-        </p> */}
       </article>
     </Container>
   )
