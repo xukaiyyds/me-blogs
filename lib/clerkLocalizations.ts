@@ -2,7 +2,7 @@ const commonTexts = {
   signIn: {
     phoneCode: {
       title: '检查手机短信',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证码',
       formSubtitle: '使用发送到您手机的验证码',
       resendButton: '重新发送验证码',
@@ -78,13 +78,13 @@ export const zhCN = {
   signUp: {
     start: {
       title: '创建您的账户',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       actionText: '已经有账户了？',
       actionLink: '登录',
     },
     emailLink: {
       title: '验证您的电子邮件',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证链接',
       formSubtitle: '使用发送到您的电子邮件地址的验证链接',
       resendButton: '重新发送链接',
@@ -102,21 +102,21 @@ export const zhCN = {
     },
     emailCode: {
       title: '验证您的电子邮件',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证码',
       formSubtitle: '输入发送到您的电子邮件地址的验证码',
       resendButton: '重新发送验证码',
     },
     phoneCode: {
       title: '验证您的电话',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证码',
       formSubtitle: '输入发送到您的电话号码的验证码',
       resendButton: '重新发送验证码',
     },
     continue: {
       title: '填写缺少的字段',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       actionText: '已经有账户了？',
       actionLink: '登录',
     },
@@ -124,7 +124,7 @@ export const zhCN = {
   signIn: {
     start: {
       title: '登录',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       actionText: '还没有账户？',
       actionLink: '注册',
       actionLink__use_email: '使用电子邮件',
@@ -134,7 +134,7 @@ export const zhCN = {
     },
     password: {
       title: '输入您的密码',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       actionLink: '使用其他方法',
     },
     forgotPasswordAlternativeMethods: {
@@ -161,14 +161,14 @@ export const zhCN = {
     },
     emailCode: {
       title: '查看您的电子邮件',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证码',
       formSubtitle: '输入发送到您的电子邮件地址的验证码',
       resendButton: '重新发送验证码',
     },
     emailLink: {
       title: '查看您的电子邮件',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '验证链接',
       formSubtitle: '使用发送到您的电子邮件的验证链接',
       resendButton: '重新发送链接',
@@ -207,7 +207,7 @@ export const zhCN = {
     },
     backupCodeMfa: {
       title: '输入备用代码',
-      subtitle: '继续使用 {{applicationName}}',
+      subtitle: '',
       formTitle: '',
       formSubtitle: '',
     },

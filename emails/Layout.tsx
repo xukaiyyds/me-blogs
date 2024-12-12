@@ -54,17 +54,10 @@ export default function Layout({
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://x.com/xukaiyyds"
+                  href="https://github.com/xukaiyyds"
                   className="text-xs text-zinc-600 underline"
                 >
-                  Twitter
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://www.youtube.com/@xukaiyyds"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  YouTube
+                  GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
@@ -75,10 +68,17 @@ export default function Layout({
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://github.com/xukaiyyds"
+                  href="https://www.youtube.com/@xukaiyyds"
                   className="text-xs text-zinc-600 underline"
                 >
-                  GitHub
+                  YouTube
+                </Link>{' '}
+                |&nbsp;
+                <Link
+                  href="https://x.com/xukaiyyds"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  Twitter
                 </Link>
               </Text>
             </Section>

@@ -97,14 +97,9 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://x.com/xukaiyyds"
-          aria-label="我的推特"
-          platform="twitter"
-        />
-        <SocialLink
-          href="https://www.youtube.com/@xukaiyyds"
-          aria-label="我的 YouTube"
-          platform="youtube"
+          href="https://github.com/xukaiyyds"
+          aria-label="我的 GitHub"
+          platform="github"
         />
         <SocialLink
           href="https://space.bilibili.com/2039366031"
@@ -112,9 +107,14 @@ export function Headline() {
           platform="bilibili"
         />
         <SocialLink
-          href="https://github.com/xukaiyyds"
-          aria-label="我的 GitHub"
-          platform="github"
+          href="https://www.youtube.com/@xukaiyyds"
+          aria-label="我的 YouTube"
+          platform="youtube"
+        />
+        <SocialLink
+          href="https://x.com/xukaiyyds"
+          aria-label="我的推特"
+          platform="twitter"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
