@@ -62,7 +62,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.error()
   }
 
-  let iconUrl = 'https://me.xukaiyyds.cn/favicon_blank.png'
+  let iconUrl = './favicon_blank.png'
 
   try {
     const predefinedIcon = getPredefinedIconForUrl(url)
